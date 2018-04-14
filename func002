@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+import os
+import subprocess
+
+def speak():
+	os.system('say hello')
+
+def makefile():
+	os.system('touch ~/Desktop/file ')
+
+def all():
+	speak()
+	makefile()
+
+all()
