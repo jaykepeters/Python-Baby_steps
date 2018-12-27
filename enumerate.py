@@ -3,10 +3,10 @@
 from datetime import datetime
 
 personalInfo =	{
-  "dob": "04/25/2003",
-  "first name": "Jayke",
-  "middle name": "Daniel",
-  "last name": "Peters"
+  "dob": "",
+  "first name": "",
+  "middle name": "",
+  "last name": ""
 }
 
 for key, value in personalInfo.iteritems():
